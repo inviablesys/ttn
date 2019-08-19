@@ -13,3 +13,5 @@ select * from AT_X_INCIDENCIAS_MTO_TBL where codope IN (select codope from AT_OP
 select * from *;
 
 Añadimos más comentarios
+
+y mas comentarios
