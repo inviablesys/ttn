@@ -11,3 +11,5 @@ select * from AT_OPERARIOS_TBL where activo ='S';
 select * from AT_X_INCIDENCIAS_MTO_TBL where codope IN (select codope from AT_OPERARIOS_TBL where activo ='S' AND (CODGFH = '714' OR CODGFH = '720' OR CODGFH = '721' OR CODGFH = '710' OR CODGFH = '709' OR CODGFH = '520')) and fecha >='13112017' and fecha <='19112017';
 
 select * from *;
+
+Añadimos más comentarios
